@@ -5,7 +5,7 @@
     },
     "display": {
         "date_format": "%d/%m/%Y %H:%M",
-        "offline": "εκτός σύνδεση",
+        "offline": "Εκτός Σύνδεση",
         "power_w": "%.0f W",
         "power_kw": "%.1f kW",
         "yield_today_wh": "Hoy: %4.0f Wh",
@@ -113,7 +113,7 @@
             "7015": "Το θέμα Hass δεν πρέπει να περιέχει χαρακτήρες διαστήματος!",
             "7016": "Το LWT QOS δεν πρέπει να είναι μεγαλύτερο από το {max}!",
             "7017": "Το αναγνωριστικό πελάτη δεν πρέπει να υπερβαίνει τους {max} χαρακτήρες!",
-            "7018": "Hass topic must end with slash (/)!",
+            "7018": "Το θέμα Hass πρέπει να λήγει με πλάγια κάθετο. (/)!",
             "8001": "Η διεύθυνση IP δεν είναι έγκυρη!",
             "8002": "Η μάσκα δικτύου δεν είναι έγκυρη!",
             "8003": "Η πύλη δεν είναι έγκυρη!",
@@ -203,7 +203,7 @@
             "FirmwareBuildDate": "Ημερομηνία δημιουργίας υλικολογισμικού",
             "HardwarePartNumber": "Αριθμός εξαρτήματος υλικού",
             "HardwareVersion": "Έκδοση υλικού",
-            "SupportsPowerDistributionLogic": "'Power Distribution Logic' supported",
+            "SupportsPowerDistributionLogic": "Υποστηρίζεται η «Λογική Κατανομής Ισχύος»",
             "Yes": "@:base.Yes",
             "No": "@:base.No"
         },
@@ -237,7 +237,7 @@
             "FrmwareUpdateAllow": "Ενεργοποιώντας τον έλεγχο ενημέρωσης, αποστέλλεται ένα αίτημα στο GitHub.com κάθε φορά που καλείται η σελίδα για την ανάκτηση της τρέχουσας διαθέσιμης έκδοσης. Εάν δεν συμφωνείτε με αυτό, αφήστε αυτή τη λειτουργία απενεργοποιημένη.",
             "ResetReason0": "Επαναφορά CPU 0",
             "ResetReason1": "Επαναφορά CPU 1",
-            "ConfigSaveCount": "Config save count",
+            "ConfigSaveCount": "Ρύθμιση παραμέτρων αποθήκευσης",
             "Uptime": "Χρόνος λειτουργίας",
             "UptimeValue": "Σήμερα {time} | 1 ημέρα {time} | {count} ημέρες {time}"
         },
@@ -296,7 +296,7 @@
             "Connected": "Συνδεδεμένο",
             "NotConnected": "Δεν συνδέεται",
             "Configured": "Διαμορφώθηκε",
-            "NotConfigured": "δεν έχει διαμορφωθεί",
+            "NotConfigured": "Δεν έχει διαμορφωθεί",
             "Unknown": "Άγνωστο"
         },
         "networkinfo": {
@@ -375,9 +375,9 @@
             "Expire": "Λήξη",
             "IndividualPanels": "Ατομικά πάνελ",
             "RuntimeSummary": "Σύνοψη χρόνου εκτέλεσης",
-            "ConnectionStatus": "Estado de Conexión",
-            "Connected": "συνδεδεμένο",
-            "Disconnected": "αποσυνδεδεμένο"
+            "ConnectionStatus": "Κατάσταση σύνδεσης",
+            "Connected": "Συνδεδεμένο",
+            "Disconnected": "Αποσυνδεδεμένο"
         },
         "console": {
             "Console": "Κονσόλα",
@@ -410,7 +410,7 @@
             "Frequency": "Συχνότητα",
             "Temperature": "Θερμοκρασία",
             "PowerFactor": "Συντελεστής ισχύος",
-            "ReactivePower": "Αέργου Ισχύς",
+            "ReactivePower": "Άεργος ισχύς",
             "Efficiency": "Αποδοτικότητα",
             "Irradiation": "Ακτινοβόληση"
         },
@@ -421,7 +421,7 @@
             "Cancel": "@:base.Cancel",
             "RebootOpenDTU": "Επανεκκινήστε το OpenDTU",
             "RebootQuestion": "Θέλετε πραγματικά να κάνετε επανεκκίνηση της συσκευής;",
-            "RebootHint": "<b>Σημείωση:</b> Δεν χρειάζεται κανονικά να εκτελείται χειροκίνητη επανεκκίνηση. Το OpenDTU εκτελεί αυτόματα οποιαδήποτε απαιτούμενη επανεκκίνηση (π.χ. μετά από ενημέρωση υλικολογισμικού). Οι ρυθμίσεις υιοθετούνται επίσης χωρίς επανεκκίνηση. Εάν χρειάζεται να κάνετε επανεκκίνηση λόγω σφάλματος, εξετάστε το ενδεχόμενο να το αναφέρετε στη διεύθυνση <a href=\"https://github.com/hoylabs/OpenDTU-OnBattery/issues\" class=\"alert-link\" target=\"_blank\">https://github.com/hoylabs/OpenDTU-OnBattery/issues</a>."
+            "RebootHint": "<b>Σημείωση:</b> Δεν χρειάζεται κανονικά να εκτελείται χειροκίνητη επανεκκίνηση. Το OpenDTU-Onbattery εκτελεί αυτόματα οποιαδήποτε απαιτούμενη επανεκκίνηση (π.χ. μετά από ενημέρωση υλικολογισμικού). Οι ρυθμίσεις υιοθετούνται επίσης χωρίς επανεκκίνηση. Εάν χρειάζεται να κάνετε επανεκκίνηση λόγω σφάλματος, εξετάστε το ενδεχόμενο να το αναφέρετε στη διεύθυνση <a href=\"https://github.com/hoylabs/OpenDTU-OnBattery/issues\" class=\"alert-link\" target=\"_blank\">https://github.com/hoylabs/OpenDTU-OnBattery/issues</a>."
         },
         "dtuadmin": {
             "DtuSettings": "Ρυθμίσεις DTU",
@@ -663,7 +663,7 @@
             "TimeSyncLink": "Ελέγξτε τις ρυθμίσεις ώρας.",
             "DefaultPassword": "Χρησιμοποιείτε τον προεπιλεγμένο κωδικό πρόσβασης για τη διεπαφή ιστού και το σημείο πρόσβασης έκτακτης ανάγκης. Αυτό είναι δυνητικά μη ασφαλές.",
             "DefaultPasswordLink": "Αλλάξτε τον κωδικό πρόσβασης.",
-            "PinMappingIssue": "You are using a generic firmware image, but have not yet uploaded a file with device profiles (<code>pin_mapping.json</code>) or have not selected a profile defined there. Please refer to the <a href=\"https://opendtu.solar/firmware/device_profiles/\" target=\"_blank\" class=\"alert-link\">documentation</a> for details."
+            "PinMappingIssue": "Χρησιμοποιείτε ένα γενικό είδωλο υλικολογισμικού (firmware image), αλλά δεν έχετε ανεβάσει ακόμη αρχείο με προφίλ συσκευών (<code>pin_mapping.json</code>) ή δεν έχετε επιλέξει κάποιο προφίλ που ορίζεται σε αυτό. Ανατρέξτε στην <a href=\"https://opendtu.solar/firmware/device_profiles/\" target=\"_blank\" class=\"alert-link\">τεκμηρίωση</a> για λεπτομέρειες."
         },
         "deviceadmin": {
             "DeviceManager": "Διαχείριση Συσκευών",
@@ -724,7 +724,7 @@
             "Module_webapi": "Διεπαφή Web",
             "Module_async_ws": "Async WebSockets",
             "Module_async_tcp": "Async TCP",
-            "CoreHint": "Warning: A too detailed log level of the CORE module can significantly impact performance and lead to unpredictable behavior. The log level setting should only be temporarily adjusted for targeted troubleshooting. The default setting 'Error' is sufficient for normal operation.",
+            "CoreHint": "Προειδοποίηση: Ένα υπερβολικά λεπτομερές επίπεδο καταγραφής (log level) για τη μονάδα CORE μπορεί να επηρεάσει σημαντικά την απόδοση και να οδηγήσει σε απρόβλεπτη συμπεριφορά. Η ρύθμιση του επιπέδου καταγραφής θα πρέπει να τροποποιείται μόνο προσωρινά, για στοχευμένη αντιμετώπιση προβλημάτων. Η προεπιλεγμένη ρύθμιση «Error» επαρκεί για την κανονική λειτουργία.",
             "log_inherit": "Inherit from default",
             "log_none": "None",
             "log_error": "(E) Error",
