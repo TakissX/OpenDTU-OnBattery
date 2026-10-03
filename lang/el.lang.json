@@ -8,10 +8,10 @@
         "offline": "Εκτός Σύνδεση",
         "power_w": "%.0f W",
         "power_kw": "%.1f kW",
-        "yield_today_wh": "Hoy: %4.0f Wh",
-        "yield_today_kwh": "Hoy: %.1f kWh",
-        "yield_total_kwh": "Total: %.1f kWh",
-        "yield_total_mwh": "Total: %.0f kWh"
+        "yield_today_wh": "Σημερινή απόδοση: %4.0f Wh",
+        "yield_today_kwh": "Σημερινή απόδοση: %.1f kWh",
+        "yield_total_kwh": "Συνολική απόδοση: %.1f kWh",
+        "yield_total_mwh": "Συνολική απόδοση: %.0f kWh"
     },
     "webapp": {
         "menu": {
@@ -64,7 +64,7 @@
         },
         "dataagedisplay": {
             "DataAge": "Τελευταία ενημέρωση πρίν από",
-            "SecondsSince": "0 δευτερόλεπτα | 1 δευτερόλεπτα | {n} δευτερόλεπτα"
+            "SecondsSince": "0 δευτερόλεπτα | 1 δευτερόλεπτο | {n} δευτερόλεπτα"
         },
         "apiresponse": {
             "1001": "Οι ρυθμίσεις αποθηκεύτηκαν!",
@@ -168,7 +168,7 @@
             "Ok": "Ολα καλά",
             "Unknown": "Άγνωστο",
             "ShowGridProfile": "Εμφάνιση Προφίλ Πλέγματος",
-            "GridProfile": "Perfil de la Red",
+            "GridProfile": "Προφίλ δικτύου",
             "LoadingInverter": "Αναμονή για δεδομένα... (μπορεί να διαρκέσει έως και 10 δευτερόλεπτα)",
             "RadioStats": "Στατιστικά Ραδιοφώνου",
             "TxRequest": "Συνολικά αιτήματα TX",
@@ -386,7 +386,7 @@
             "ClearConsole": "Εκκαθάριση κονσόλας",
             "CopyToClipboard": "Αντιγραφή στο πρόχειρο",
             "Download": "Download",
-            "RegularExpression": "Regular Expression",
+            "RegularExpression": "Κανονική έκφραση",
             "Lines": "{lines} Lines",
             "LogLevel": "Log Level ({cnt})"
         },
@@ -580,10 +580,10 @@
             "StringMaxPower": "Τιμή μέγιστης ισχύος {num}:",
             "StringMaxPowerHint": "Εισαγάγετε τη μέγιστη ισχύ των συνδεδεμένων ηλιακών συλλεκτών.",
             "StringYtOffset": "Μετατόπιση συνολικής απόδοσης {num}:",
-            "StringYtOffsetHint": "Esta compensación se aplica al valor total de rendimiento leído del inversor. Esto se puede usar para ajustar el rendimiento total del inversor a cero si se utiliza un inversor usado. Pero aún puede intentar sondear datos.",
+            "StringYtOffsetHint": "Αυτή η αντιστάθμιση εφαρμόζεται στην τιμή συνολικής απόδοσης που διαβάζεται από τον μετατροπέα. Αυτό μπορεί να χρησιμοποιηθεί για να ρυθμίσετε τη συνολική απόδοση του μετατροπέα στο μηδέν εάν χρησιμοποιείτε μεταχειρισμένο μετατροπέα. Ωστόσο, μπορείτε να δοκιμάσετε να ελέγξετε τα δεδομένα.",
             "InverterHint": "*) Εισαγάγετε το W<sub>p</sub> του καναλιού για να υπολογίσετε την ακτινοβολία.",
             "ReachableThreshold": "Όριο προσβασιμότητας",
-            "ReachableThresholdHint": " alcanzable.",
+            "ReachableThresholdHint": " προσβάσιμος.",
             "ZeroRuntime": "Δεδομένα μηδενικού χρόνου",
             "ZeroRuntimeHint": "Καθορίζει πόσα αιτήματα επιτρέπεται να αποτύχουν έως ότου ο μετατροπέας δεν είναι προσβάσιμος.",
             "ZeroDay": "Μηδενική ημερήσια απόδοση τα μεσάνυχτα",
