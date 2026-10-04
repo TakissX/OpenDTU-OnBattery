@@ -496,13 +496,13 @@
             "AdminAp": "Διαμόρφωση Wi-Fi (Σημείο Πρόσβασης Διαχειριστή)",
             "ApTimeout": "Χρονικό όριο σημείου πρόσβασης",
             "ApTimeoutHint": "Χρόνος που το σημείου πρόσβασης παραμένει ανοιχτό. Η τιμή του 0 σημαίνει άπειρο.",
-            "Minutes": "λεπτά",
+            "Minutes": "Λεπτά",
             "EnableMdns": "Ενεργοποίηση mDNS",
             "MdnsSettings": "Ρυθμίσεις mDNS",
             "EnableSyslog": "Enable Syslog",
-            "SyslogSettings": "Syslog Settings",
-            "SyslogHostname": "Syslog Server",
-            "SyslogPort": "Port"
+            "SyslogSettings": "Ρυθμίσεις Syslog",
+            "SyslogHostname": "Διακομιστής Syslog",
+            "SyslogPort": "Πόρτα"
         },
         "mqttadmin": {
             "MqttSettings": "Ρυθμίσεις MQTT",
@@ -691,12 +691,12 @@
             "rot180": "Περιστροφή 180 μοιρών",
             "rot270": "Περιστροφή 270 μοιρών",
             "DisplayLanguage": "Γλώσσα οθόνης",
-            "en": "English",
-            "de": "Deutsch",
-            "fr": "Français",
-            "Leds": "LEDs",
+            "en": "Αγγλικά",
+            "de": "Γερμανικά",
+            "fr": "Γαλλικά",
+            "Leds": "Φωτοδίοδος",
             "EqualBrightness": "Η ίδια φωτεινότητα",
-            "LedBrightness": "Φωτεινότητα LED {led} ({brightness})"
+            "LedBrightness": "Φωτεινότητα Φωτοδιόδου {led} ({brightness})"
         },
         "pininfo": {
             "Category": "Κατηγορία",
@@ -713,10 +713,10 @@
             "format_unknown": "Άγνωστη μορφή"
         },
         "loggingadmin": {
-            "LoggingSettings": "Logging Settings",
-            "LogLevel": "Log Level",
-            "DefaultLevel": "Default log level",
-            "Module": "Module",
+            "LoggingSettings": "Ρυθμίσεις καταγραφής",
+            "LogLevel": "Επίπεδο καταγραφής",
+            "DefaultLevel": "Προεπιλεγμένο επίπεδο καταγραφής",
+            "Module": "Ενότητα",
             "Module_CORE": "Κεντρικό μέρος",
             "Module_hoymiles": "Ραδιοφωνική επικοινωνία Hoymiles",
             "Module_mqtt": "Πελάτης MQTT",
@@ -726,12 +726,12 @@
             "Module_async_tcp": "Async TCP",
             "CoreHint": "Προειδοποίηση: Ένα υπερβολικά λεπτομερές επίπεδο καταγραφής (log level) για τη μονάδα CORE μπορεί να επηρεάσει σημαντικά την απόδοση και να οδηγήσει σε απρόβλεπτη συμπεριφορά. Η ρύθμιση του επιπέδου καταγραφής θα πρέπει να τροποποιείται μόνο προσωρινά, για στοχευμένη αντιμετώπιση προβλημάτων. Η προεπιλεγμένη ρύθμιση «Error» επαρκεί για την κανονική λειτουργία.",
             "log_inherit": "Inherit from default",
-            "log_none": "None",
-            "log_error": "(E) Error",
-            "log_warn": "(W) Warning",
-            "log_info": "(I) Info",
-            "log_debug": "(D) Debug",
-            "log_verbose": "(V) Verbose"
+            "log_none": "Κανένα",
+            "log_error": "(E) Σφάλμα",
+            "log_warn": "(W) Προειδοποίηση",
+            "log_info": "(I) Πληροφορίες",
+            "log_debug": "(D) Εντοπισμός σφαλμάτων",
+            "log_verbose": "(V) Λεπτομερής"
         }
     }
 }
