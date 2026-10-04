@@ -22,7 +22,7 @@
             "MQTTSettings": "MQTT Ρυθμίσεις",
             "InverterSettings": "Ρυθμίσεις Μετατροπέα",
             "SecuritySettings": "Ρυθμίσεις Ασφάλειας",
-            "LoggingSettings": "Logging Settings",
+            "LoggingSettings": "Ρυθμίσεις καταγραφής",
             "DTUSettings": "DTU Ρυθμίσεις",
             "DeviceManager": "Διαχείριση Συσκευών",
             "ConfigManagement": "Διαχείριση διαμόρφωσης",
@@ -47,8 +47,8 @@
             "Pull": "Τραβήξτε προς τα κάτω για ανανέωση",
             "Release": "Ανακοινώνω",
             "Close": "Κλείνω",
-            "Yes": "Yes",
-            "No": "No"
+            "Yes": "Ναι",
+            "No": "Όχι"
         },
         "wait": {
             "NotReady": "Το OpenDTU δεν είναι έτοιμο ακόμα",
@@ -725,7 +725,7 @@
             "Module_async_ws": "Async WebSockets",
             "Module_async_tcp": "Async TCP",
             "CoreHint": "Προειδοποίηση: Ένα υπερβολικά λεπτομερές επίπεδο καταγραφής (log level) για τη μονάδα CORE μπορεί να επηρεάσει σημαντικά την απόδοση και να οδηγήσει σε απρόβλεπτη συμπεριφορά. Η ρύθμιση του επιπέδου καταγραφής θα πρέπει να τροποποιείται μόνο προσωρινά, για στοχευμένη αντιμετώπιση προβλημάτων. Η προεπιλεγμένη ρύθμιση «Error» επαρκεί για την κανονική λειτουργία.",
-            "log_inherit": "Inherit from default",
+            "log_inherit": "Προεπιλεγμένο επίπεδο καταγραφής",
             "log_none": "Κανένα",
             "log_error": "(E) Σφάλμα",
             "log_warn": "(W) Προειδοποίηση",
