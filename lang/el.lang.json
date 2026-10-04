@@ -3,60 +3,6 @@
         "name": "Ελληνικά",
         "code": "el"
     },
-    "display": {
-        "date_format": "%d/%m/%Y %H:%M",
-        "offline": "Εκτός Σύνδεση",
-        "power_w": "%.0f W",
-        "power_kw": "%.1f kW",
-        "yield_today_wh": "Σημερινή απόδοση: %4.0f Wh",
-        "yield_today_kwh": "Σημερινή απόδοση: %.1f kWh",
-        "yield_total_kwh": "Συνολική απόδοση: %.1f kWh",
-        "yield_total_mwh": "Συνολική απόδοση: %.0f kWh"
-    },
-    "menu": {
-        "LiveView": "Προβολή Τηλεμετρίας",
-        "Settings": "Ρυθμίσεις",
-        "NetworkSettings": "Ρυθμίσεις Δικτύου",
-        "NTPSettings": "Ρυθμίσεις NTP",
-        "MQTTSettings": "Ρυθμίσεις MQTT",
-        "InverterSettings": "Ρυθμίσεις Μετατροπέα",
-        "SecuritySettings": "Ρυθμίσεις Ασφάλειας",
-        "LoggingSettings": "Ρυθμίσεις Καταγραφής",
-        "DTUSettings": "Ρυθμίσεις DTU",
-        "DeviceManager": "Διαχείριση Συσκευών",
-        "SolarChargerSettings": "Ρυθμίσεις Φορτιστή Solar",
-        "PowerMeterSettings": "Ρυθμίσεις Μετρητή Ισχύος",
-        "BatterySettings": "Ρυθμίσεις Μπαταρίας",
-        "AcChargerSettings": "Ρυθμίσεις Φορτιστή AC",
-        "ConfigManagement": "Διαχείριση Διαμόρφωσης",
-        "FirmwareUpgrade": "Αναβάθμιση Υλικολογισμικού",
-        "DeviceReboot": "Επανεκκίνηση Συσκευής",
-        "Info": "Πληροφορίες",
-        "System": "Σύστημα",
-        "Network": "Δίκτυο",
-        "NTP": "NTP",
-        "MQTT": "MQTT",
-        "Console": "Κονσόλα",
-        "About": "Σχετικά με",
-        "Logout": "Αποσύνδεση",
-        "Login": "Σύνδεση"
-    },
-    "base": {
-        "Seconds": "Δευτερόλεπτα",
-        "Loading": "Φόρτωση...",
-        "Reload": "Επαναφόρτωση",
-        "Cancel": "Ακύρωση",
-        "Save": "Αποθήκευση",
-        "Refreshing": "Ανανέωση",
-        "Pull": "Τραβήξτε προς τα κάτω για ανανέωση",
-        "Release": "Αφήστε για ανανέωση",
-        "Close": "Κλείσιμο",
-        "Yes": "Ναι",
-        "No": "Όχι",
-        "Unit": "Μονάδα",
-        "MqttJsonPath": "Προαιρετικό: JSON Path",
-        "MqttJsonPathDescription": "Διαδρομή JSON ειδική για την εφαρμογή, για την εύρεση της τιμής στο payload JSON, π.χ. 'electricLevel'. Αφήστε το κενό αν το payload του topic περιέχει απλή αριθμητική τιμή."
-    },
     "webapp": {
         "menu": {
             "LiveView": "Προβολή Τηλεμετρίας",
@@ -69,6 +15,10 @@
             "LoggingSettings": "Ρυθμίσεις Καταγραφής",
             "DTUSettings": "Ρυθμίσεις DTU",
             "DeviceManager": "Διαχείριση Συσκευών",
+            "SolarChargerSettings": "Ρυθμίσεις Φορτιστή Solar",
+            "PowerMeterSettings": "Ρυθμίσεις Μετρητή Ισχύος",
+            "BatterySettings": "Ρυθμίσεις Μπαταρίας",
+            "AcChargerSettings": "Ρυθμίσεις Φορτιστή AC",
             "ConfigManagement": "Διαχείριση Διαμόρφωσης",
             "FirmwareUpgrade": "Αναβάθμιση Υλικολογισμικού",
             "DeviceReboot": "Επανεκκίνηση Συσκευής",
@@ -83,6 +33,7 @@
             "Login": "Σύνδεση"
         },
         "base": {
+            "Seconds": "Δευτερόλεπτα",
             "Loading": "Φόρτωση...",
             "Reload": "Επαναφόρτωση",
             "Cancel": "Ακύρωση",
@@ -92,10 +43,13 @@
             "Release": "Αφήστε για ανανέωση",
             "Close": "Κλείσιμο",
             "Yes": "Ναι",
-            "No": "Όχι"
+            "No": "Όχι",
+            "Unit": "Μονάδα",
+            "MqttJsonPath": "Προαιρετικό: JSON Path",
+            "MqttJsonPathDescription": "Διαδρομή JSON ειδική για την εφαρμογή, για την εύρεση της τιμής στο payload JSON, π.χ. 'electricLevel'. Αφήστε το κενό αν το payload του topic περιέχει απλή αριθμητική τιμή."
         },
         "wait": {
-            "NotReady": "Το OpenDTU δεν είναι έτοιμο ακόμα",
+            "NotReady": "Το OpenDTU-OnBattery δεν είναι ακόμα έτοιμο",
             "PleaseWait": "Παρακαλώ περιμένετε. Θα ανακατευθυνθείτε αυτόματα στην αρχική σελίδα."
         },
         "Error": {
